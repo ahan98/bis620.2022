@@ -6,6 +6,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/ahan98/bis620.2022/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ahan98/bis620.2022/actions/workflows/R-CMD-check.yaml)
+[![lint](https://github.com/ahan98/bis620.2022/actions/workflows/lint.yaml/badge.svg)](https://github.com/ahan98/bis620.2022/actions/workflows/lint.yaml)
+[![test-coverage](https://github.com/ahan98/bis620.2022/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/ahan98/bis620.2022/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
 The goal of bis620.2022 is to …

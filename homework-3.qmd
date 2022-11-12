@@ -19,11 +19,12 @@ covr::report()
 
 ```{r}
 library(usethis)
-usethis::use_github_action_check_standard()
-usethis::use_github_actions_badge()
-usethis::use_coverage()
 usethis::use_readme_rmd()
+usethis::use_coverage()
+usethis::use_github_actions_badge()
 usethis::use_github_action("test-coverage")
+usethis::use_github_action("lint")
+usethis::use_github_action_check_standard()
 ```
 
 1. (1 point) Add your name, yale netid, and github account to [this shared document](https://yale.instructure.com/courses/81394/collaborations/5950).
