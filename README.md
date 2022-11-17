@@ -27,8 +27,6 @@ devtools::install_github("ahan98/bis620.2022")
 
 ## Features
 
-The UKBiobank data, loaded with `data(ukb_accel)`, .
-
 This package includes two main functions for interacting with the
 data: - `R/plot.R/accel_plot()` plots acceleration in the 3 different
 channels (X, Y, Z) as a time series. -
