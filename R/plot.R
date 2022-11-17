@@ -21,7 +21,10 @@ accel_plot <- function(x) {
   }
   x |>
     pivot_longer(-all_of(col)) |>
-    ggplot(aes_string(x = col, y = "value")) +
+      ## original
+      # ggplot(aes_string(x = col, y = "value")) +
+      ## document twice
+      ggplot(aes(x = {{col}}, y = value)) +
       geom_line() +
       facet_grid(name ~ .)
 }
