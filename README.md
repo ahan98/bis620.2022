@@ -46,4 +46,4 @@ spectral <- spectral_signature(samples_100, take_log = TRUE)
 accel_plot(spectral)
 ```
 
-<img src="man/figures/README-example-1.png" width="100%" />
+<img src="man/figures/README-example-1.png" width="75%" />
